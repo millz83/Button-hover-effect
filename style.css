@@ -1,0 +1,33 @@
+* {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+
+body {
+    height:100vh;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-color: antiquewhite;
+}
+
+
+.btn {
+    width:130px;
+    height:40px;
+    font-size: 1.1em;
+    cursor: pointer;
+    background:#171717;
+    color:white;
+    border:none;
+    transition:all .4s;
+}
+
+.btn:hover{
+    border-radius: 5px;
+    transform:translateY(-10px);
+    box-shadow: 0 7px 0 #f85959, 0 15px 0 -4px #21d7e4,
+    0 16px 10px -3px #21d7e4;
+}
